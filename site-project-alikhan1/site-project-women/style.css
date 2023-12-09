@@ -63,18 +63,54 @@
     font-family: 'Roboto', sans-serif;
     font-weight: 100;
 }
-@media (max-width:1800px) and (min-width:1300px) {
+@media (max-width:1800px) and (min-width:1400px) {
     #hidden h1{
         font-size: 170%;
     }
     .ttxt h1{
-        font-size: 260%;
+        font-size: 170%;
     }
     .ttxt p{
-        font-size: 140%;
+        font-size: 120%;
     }
     .mini-blocks{
+        height: 90%;
+        margin-top: 10%;
+    }
+
+    .img-block h2{
+        margin-top: 3%;
+    }
+    .blocks{
         height: 80%;
+    }
+    .img-block img{
+        width: 100%;
+        height: 100%;
+    }
+    .ttxt {
+        height: 10%;
+    }
+}
+
+@media (max-width:1400px) and (min-width:1200px) {
+    .main{
+        height: 130vh;
+    }
+    .blocks{
+        margin-top: 5%;
+    }
+    #hidden h1{
+        font-size: 140%;
+    }
+    .ttxt h1{
+        font-size: 170%;
+    }
+    .ttxt p{
+        font-size: 120%;
+    }
+    .mini-blocks{
+        height: 90%;
         margin-top: 0%;
     }
 
@@ -83,6 +119,83 @@
     }
     .blocks{
         height: 80%;
+    }
+    .img-block img{
+        width: 100%;
+        height: 100%;
+    }
+    .ttxt {
+        height: 10%;
+    }
+}
+@media (max-width:1200px) and (min-width:800px) {
+    .main{
+        height: 130vh;
+    }
+    .blocks{
+        margin-top: 5%;
+    }
+    #hidden h1{
+        font-size: 140%;
+    }
+    .ttxt h1{
+        font-size: 170%;
+    }
+    .ttxt p{
+        font-size: 120%;
+    }
+    .mini-blocks{
+        height: 90%;
+        margin-top: 0%;
+    }
+
+    .img-block h2{
+        margin-top: 3%;
+    }
+    .blocks{
+        grid-template-columns: 48% 48%;
+        height: 80%;
+        
+    }
+    .img-block img{
+        width: 100%;
+        height: 100%;
+    }
+    .ttxt {
+        height: 10%;
+    }
+}
+@media (max-width:800px) and (min-width:430px) {
+    .main{
+        height: 140vh;
+    }
+    .blocks{
+        margin-top: 10%;
+    }
+    #hidden h1{
+        font-size: 100%;
+    }
+    .ttxt h1{
+        font-size: 140%;
+    }
+    .ttxt p{
+        font-size: 90%;
+    }
+    .mini-blocks{
+        height: 80%;
+        margin-top: 0%;
+    }
+    .img-block p{
+        font-size: 90%;
+    }
+
+    .img-block h2{
+        margin-top: 3%;
+    }
+    .blocks{
+        grid-template-columns: 48% 48%;
+        height: 80%;
+        
     }
     .img-block img{
         width: 100%;
