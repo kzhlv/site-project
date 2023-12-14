@@ -1,0 +1,79 @@
+.main{
+    width: 100%;
+    height: 167.8vh;
+    border: solid 1px red;
+}
+#hidden{
+    width: 100%;
+    height: 4%;
+    display: flex;
+    justify-content: space-around;
+    background-color: black;
+}
+#hidden h1{
+    font-family: 'Montserrat', sans-serif;
+    font-family: 'Roboto', sans-serif;
+    font-size: 120%;
+    color: white;
+    letter-spacing: 2px;
+    font-weight: 100;
+    margin-top: 1%;
+}
+.containers{
+    margin: 5% auto;
+    width: 80%;
+    height: 90%;
+    display: flex;
+    justify-content: space-between;
+}
+.inner-containers{
+    width: 60%;
+    display: grid;
+    grid-template-columns: 49% 49%;
+    justify-content: space-around;
+    padding: 1%;
+}
+.images{
+    margin-top: 3%;
+}
+.inner-containers1{
+    width: 35%;
+    padding: 1%;
+}
+#image1{
+    background-image: url(https://www.versace.com/dw/image/v2/BGWN_PRD/on/demandware.static/-/Sites-ver-master-catalog/default/dw2b7c2324/original/90_1012717-1A09222_5W460_20_Barocco~Baby~Sleepsuit-Clothing-Versace-online-store_0_0.jpg?sw=850&q=85&strip=true);
+    background-size: 150%;
+    background-position:50%;
+}
+#image2{
+    background-image: url(https://www.versace.com/dw/image/v2/BGWN_PRD/on/demandware.static/-/Sites-ver-master-catalog/default/dw4ce17081/original/90_1012717-1A09222_5W460_22_Barocco~Baby~Sleepsuit-Clothing-Versace-online-store_0_0.jpg?sw=1200&q=85&strip=true);
+    background-size: 150%;
+    background-position:50%;
+}
+#image3{
+    background-image: url(https://www.versace.com/dw/image/v2/BGWN_PRD/on/demandware.static/-/Sites-ver-master-catalog/default/dwa08e3c38/original/90_1012717-1A09222_5W460_24_Barocco~Baby~Sleepsuit-Clothing-Versace-online-store_0_0.jpg?sw=850&q=85&strip=true);
+    background-size: 150%;
+    background-position:50%;
+}
+#image4{
+    background-image: url(https://www.versace.com/dw/image/v2/BGWN_PRD/on/demandware.static/-/Sites-ver-master-catalog/default/dwc3d5f87a/original/90_1012717-1A09222_5W460_26_Barocco~Baby~Sleepsuit-Clothing-Versace-online-store_0_0.jpg?sw=1200&q=85&strip=true);
+    background-size: 150%;
+    background-position:50%;
+}
+
+.inner-containers1 h1{
+    font-size: 150%;
+    margin-top: 5%;
+    font-family: 'Montserrat', sans-serif;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 800;
+}
+.inner-containers1 h3{
+    font-size: 120%; 
+    font-weight: 100;
+    font-family: 'Montserrat', sans-serif;
+    font-family: 'Roboto', sans-serif;
+}
+#sp1{
+    font-weight: 800;
+}
