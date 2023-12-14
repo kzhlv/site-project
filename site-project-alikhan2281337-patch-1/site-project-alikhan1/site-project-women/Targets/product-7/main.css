@@ -1,0 +1,82 @@
+.main{
+    width: 100%;
+    height: 167.8vh;
+    border: solid 1px red;
+}
+#hidden{
+    width: 100%;
+    height: 4%;
+    display: flex;
+    justify-content: space-around;
+    background-color: black;
+}
+#hidden h1{
+    font-family: 'Montserrat', sans-serif;
+    font-family: 'Roboto', sans-serif;
+    font-size: 120%;
+    color: white;
+    letter-spacing: 2px;
+    font-weight: 100;
+    margin-top: 1%;
+}
+.containers{
+    margin: 5% auto;
+    width: 80%;
+    height: 90%;
+    display: flex;
+    justify-content: space-between;
+}
+.inner-containers{
+    width: 60%;
+    display: grid;
+    grid-template-columns: 49% 49%;
+    justify-content: space-around;
+    padding: 1%;
+}
+.images{
+    margin-top: 3%;
+}
+.inner-containers1{
+    width: 35%;
+    padding: 1%;
+}
+#image1{
+    background-image: url(https://www.versace.com/dw/image/v2/BGWN_PRD/on/demandware.static/-/Sites-ver-master-catalog/default/dw54fadca9/original/90_1009438-1A08569_1B00V_20_GrecaGoddessToteBag-Bags-Versace-online-store_1_2.jpg?sw=850&q=85&strip=true);
+    background-size: 100%;
+}
+#image2{
+    background-image: url(https://www.versace.com/dw/image/v2/BGWN_PRD/on/demandware.static/-/Sites-ver-master-catalog/default/dw96f90dac/original/90_1009438-1A08569_1B00V_22_GrecaGoddessToteBag-Bags-Versace-online-store_1_2.jpg?sw=850&q=85&strip=true);
+    background-size: 100%;
+}
+#image3{
+    background-image: url(https://www.versace.com/dw/image/v2/BGWN_PRD/on/demandware.static/-/Sites-ver-master-catalog/default/dw0ba0ddd1/original/90_1009438-1A08569_1B00V_24_GrecaGoddessToteBag-Bags-Versace-online-store_1_2.jpg?sw=850&q=85&strip=true);
+    background-size: 100%;
+}
+#image4{
+    background-image: url(https://www.versace.com/dw/image/v2/BGWN_PRD/on/demandware.static/-/Sites-ver-master-catalog/default/dw39e41af9/original/90_1009438-1A08569_1B00V_26_GrecaGoddessToteBag-Bags-Versace-online-store_1_2.jpg?sw=850&q=85&strip=true);
+    background-size: 100%;
+}
+#image5{
+    background-image: url(https://www.versace.com/dw/image/v2/BGWN_PRD/on/demandware.static/-/Sites-ver-master-catalog/default/dwb395b731/original/90_1009438-1A08569_1B00V_28_GrecaGoddessToteBag-Bags-Versace-online-store_1_2.jpg?sw=850&q=85&strip=true);
+    background-size: 100%;
+}
+#image6{
+    background-image: url(https://www.versace.com/dw/image/v2/BGWN_PRD/on/demandware.static/-/Sites-ver-master-catalog/default/dw7505a863/original/90_1009438-1A08569_1B00V_30_GrecaGoddessToteBag-Bags-Versace-online-store_1_2.jpg?sw=850&q=85&strip=true);
+    background-size: 100%;
+}
+.inner-containers1 h1{
+    font-size: 150%;
+    margin-top: 5%;
+    font-family: 'Montserrat', sans-serif;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 800;
+}
+.inner-containers1 h3{
+    font-size: 120%; 
+    font-weight: 100;
+    font-family: 'Montserrat', sans-serif;
+    font-family: 'Roboto', sans-serif;
+}
+#sp1{
+    font-weight: 800;
+}

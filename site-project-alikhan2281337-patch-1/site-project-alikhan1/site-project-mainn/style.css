@@ -1,0 +1,153 @@
+
+
+.main{
+    margin-top: 7%;
+    width: 100%;
+    height:95vh;
+    position: relative;
+}
+.block1{
+    z-index: 1;
+    position: fixed;
+    width: 102%;
+    margin-left: -1%;
+    margin-top: -7.5%;
+    height: 11%;
+    display: flex;
+    background-color: black;
+}
+.logot{
+    width: 15%;
+    height: 60%;
+    margin: 0.6%;
+    
+}
+.logot img{
+    margin-left: 30%;
+}
+.ns{
+    
+    margin: 2%;
+    width: 15%;
+    height: 40%;
+    
+}
+.ns a{
+    font-family:Arial, Helvetica, sans-serif;
+    font-weight: lighter;
+    color: white;
+    font-size: 150%;
+    text-decoration: none;
+}
+.ns a:hover{
+    color: white;
+}
+.ns a:not(:hover){
+    color: rgb(145, 141, 141);
+}
+.page-1{
+    width: 100%;
+    height: 80%;
+    display: flex;
+    justify-content: space-around;
+}
+#carouselExample{
+    width:90%;
+    z-index: 0;
+    height: 100%;
+}
+.main-div-image{
+    width: 100%;
+    height: 800px;
+    display: flex;
+    justify-content: space-between;
+}
+.divs-by-images{
+    width: 30%;
+    height: 100%;
+    
+}
+.secondpage{
+    width: 100%;
+    height: 60vh;
+    background-image: url(https://cdn.sanity.io/images/qa41whrn/staging/beba0eaf65b6bac1c090c538823f51cec91c2f71-1440x500.jpg?w=1440&q=80&auto=format);
+    background-size: 100%;
+    border: solid 1px black;
+}
+.textblock{
+    width: 40%;
+    height: 70%;
+    padding: 2%;
+    margin-top: 5%;
+    margin-left: 5%;
+    border-radius: 40px;
+    
+}
+.textblock h1{
+    height: 40px;
+    color: white;
+    font-size: 200%;
+    margin-top: 5%;
+}
+.textblock p{
+    color: white;
+    font-size: 120%;
+    height: 80px;
+}
+.textblock a{
+    width: 10px;
+    border: solid 1px white;
+    background-color: white;
+    color: black;
+    padding: 1.5%;
+    text-decoration: none;
+    font-size: 110%;
+    
+}
+.twoblocks{
+    margin-top: 2%;
+    width: 100%;
+    display: flex;
+    justify-content: space-evenly;
+    height: 120vh;
+    border: solid 1px red;
+}
+.one-blocks{
+    width: 49.5%;
+    height: 100%;
+    
+}
+.images{
+    width: 75%;
+    margin: auto;
+    height: 73%;
+    border: solid 1px green;
+}
+.text-under-img{
+    width: 75%;
+    border: solid 1px red;
+    height: 27%;
+    margin: auto;
+}
+.con_block{
+    width: 99.8%;
+    height: 80vh;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.con-mini_blocks{
+    width: 42.5%;
+    height: 100%;
+    margin-top: 7%;
+
+}
+#con-mini-1{
+    background-image: url(https://i.pinimg.com/originals/f5/73/25/f57325ac801936a15064c77b87cf6cb4.jpg);
+    
+    background-size: 100%;
+}
+#con-mini-2{
+    background-image: url(https://i.pinimg.com/originals/a8/e1/92/a8e192ffce99facb1e37c702661467c6.jpg);
+    background-size: 100%;
+}
