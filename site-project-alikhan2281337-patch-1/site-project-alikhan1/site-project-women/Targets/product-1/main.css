@@ -1,0 +1,82 @@
+.main{
+    width: 100%;
+    height: 167.8vh;
+    border: solid 1px red;
+}
+#hidden{
+    width: 100%;
+    height: 4%;
+    display: flex;
+    justify-content: space-around;
+    background-color: black;
+}
+#hidden h1{
+    font-family: 'Montserrat', sans-serif;
+    font-family: 'Roboto', sans-serif;
+    font-size: 120%;
+    color: white;
+    letter-spacing: 2px;
+    font-weight: 100;
+    margin-top: 1%;
+}
+.containers{
+    margin: 5% auto;
+    width: 80%;
+    height: 90%;
+    display: flex;
+    justify-content: space-between;
+}
+.inner-containers{
+    width: 60%;
+    display: grid;
+    grid-template-columns: 49% 49%;
+    justify-content: space-around;
+    padding: 1%;
+}
+.images{
+    margin-top: 3%;
+}
+.inner-containers1{
+    width: 35%;
+    padding: 1%;
+}
+#image1{
+    background-image: url(https://www.versace.com/dw/image/v2/BGWN_PRD/on/demandware.static/-/Sites-ver-master-catalog/default/dw18cf8961/original/90_1013624-1A10127_1B000_10_Medusa95CorsetLeatherMidiDress-Clothing-Versace-online-store_0_2.jpg?sw=850&q=85&strip=true);
+    background-size: 100%;
+}
+#image2{
+    background-image: url(https://www.versace.com/dw/image/v2/BGWN_PRD/on/demandware.static/-/Sites-ver-master-catalog/default/dwc489ced6/original/90_1013624-1A10127_1B000_14_Medusa95CorsetLeatherMidiDress-Clothing-Versace-online-store_0_2.jpg?sw=850&q=85&strip=true);
+    background-size: 100%;
+}
+#image3{
+    background-image: url(https://www.versace.com/dw/image/v2/BGWN_PRD/on/demandware.static/-/Sites-ver-master-catalog/default/dw834d207d/original/90_1013624-1A10127_1B000_16_Medusa95CorsetLeatherMidiDress-Clothing-Versace-online-store_0_2.jpg?sw=850&q=85&strip=true);
+    background-size: 100%;
+}
+#image4{
+    background-image: url(https://www.versace.com/dw/image/v2/BGWN_PRD/on/demandware.static/-/Sites-ver-master-catalog/default/dwdfb14455/original/90_1013624-1A10127_1B000_18_Medusa95CorsetLeatherMidiDress-Clothing-Versace-online-store_0_2.jpg?sw=850&q=85&strip=true);
+    background-size: 100%;
+}
+#image5{
+    background-image: url(https://www.versace.com/dw/image/v2/BGWN_PRD/on/demandware.static/-/Sites-ver-master-catalog/default/dwe6d7899e/original/90_1013624-1A10127_1B000_20_Medusa95CorsetLeatherMidiDress-Clothing-Versace-online-store_0_2.jpg?sw=1200&q=85&strip=true);
+    background-size: 100%;
+}
+#image6{
+    background-image: url(https://www.versace.com/dw/image/v2/BGWN_PRD/on/demandware.static/-/Sites-ver-master-catalog/default/dw18cf8961/original/90_1013624-1A10127_1B000_10_Medusa95CorsetLeatherMidiDress-Clothing-Versace-online-store_0_2.jpg?sw=850&q=85&strip=true);
+    background-size: 100%;
+}
+.inner-containers1 h1{
+    font-size: 150%;
+    margin-top: 5%;
+    font-family: 'Montserrat', sans-serif;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 800;
+}
+.inner-containers1 h3{
+    font-size: 120%; 
+    font-weight: 100;
+    font-family: 'Montserrat', sans-serif;
+    font-family: 'Roboto', sans-serif;
+}
+#sp1{
+    font-weight: 800;
+}
